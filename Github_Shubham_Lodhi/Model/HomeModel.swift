@@ -26,6 +26,7 @@ struct Repository: Codable, Identifiable, Equatable {
     let fullName: String?
     let description: String?
     let htmlURL: String?
+    let contributorsURL: String?
     let stargazersCount: Int?
     let language: String?
     let forksCount: Int?
@@ -40,6 +41,7 @@ struct Repository: Codable, Identifiable, Equatable {
         case fullName = "full_name"
         case description
         case htmlURL = "html_url"
+        case contributorsURL = "contributors_url"
         case stargazersCount = "stargazers_count"
         case language
         case forksCount = "forks_count"

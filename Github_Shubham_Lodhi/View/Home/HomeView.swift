@@ -26,12 +26,14 @@ struct HomeView: View {
                 } else {
                     List {
                         ForEach(viewModel.repositories) { repository in
-                            RepositoryRow(repository: repository)
-                                .onAppear {
-                                    if viewModel.repositories.last == repository {
-                                        viewModel.searchRepositories(query: searchText)
+                            NavigationLink(destination: RepoDetailView(repository: repository)) {
+                                RepositoryRow(repository: repository)
+                                    .onAppear {
+                                        if viewModel.repositories.last == repository {
+                                            viewModel.searchRepositories(query: searchText)
+                                        }
                                     }
-                                }
+                            }
                         }
                         
                         if viewModel.isLoading && !viewModel.repositories.isEmpty {
@@ -43,6 +45,8 @@ struct HomeView: View {
                         }
                     }
                 }
+                
+                Spacer()
             }
             .navigationTitle("Repositories")
         }

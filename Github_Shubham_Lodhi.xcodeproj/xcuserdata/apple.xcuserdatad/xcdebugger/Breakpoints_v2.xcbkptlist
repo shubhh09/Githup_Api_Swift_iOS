@@ -14,10 +14,424 @@
             filePath = "Github_Shubham_Lodhi/Networking/WebService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "searchRepositories(param:completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A1DF48F-7BAD-4084-A3FF-661D535BD941"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/View/Home/RepoDetialView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B88B09FB-0353-47C9-B3E1-41620E838C24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/View/Home/RepoDetialView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52FF3013-F4F6-47F3-893E-F5BC77694BC1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetechContributors(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "52FF3013-F4F6-47F3-893E-F5BC77694BC1 - 7675b19372b078a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor @Sendable () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "251">
+               </Location>
+               <Location
+                  uuid = "52FF3013-F4F6-47F3-893E-F5BC77694BC1 - 5ca9cde350987065"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor @Sendable () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "251">
+               </Location>
+               <Location
+                  uuid = "52FF3013-F4F6-47F3-893E-F5BC77694BC1 - 7695ca6ad681cff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "251">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FB660DE-D799-4B83-ABB8-D1F78BF94AC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetechContributors(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0DB8D24-CD4D-441E-BECD-E3E9A912EFD2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "RepoDetailViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E0DB8D24-CD4D-441E-BECD-E3E9A912EFD2 - a4c9c9dd1f55033a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Github_Shubham_Lodhi.RepoDetailViewModel.init() -&gt; Github_Shubham_Lodhi.RepoDetailViewModel"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "377">
+               </Location>
+               <Location
+                  uuid = "E0DB8D24-CD4D-441E-BECD-E3E9A912EFD2 - a4c9c9dd1f55033a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Github_Shubham_Lodhi.RepoDetailViewModel.init() -&gt; Github_Shubham_Lodhi.RepoDetailViewModel"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "386">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3F2DE8A-BCB8-4AD5-8F6B-CC244FD1A9D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetechContributors(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E3F2DE8A-BCB8-4AD5-8F6B-CC244FD1A9D3 - 8954b75b4805f112"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "E3F2DE8A-BCB8-4AD5-8F6B-CC244FD1A9D3 - 8f270ae65a91c707"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "201">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57C0DDE5-5D63-4657-8741-A110D1AF8F98"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetechContributors(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "57C0DDE5-5D63-4657-8741-A110D1AF8F98 - 7675b19372b0048"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor @Sendable () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "57C0DDE5-5D63-4657-8741-A110D1AF8F98 - 7675b19372b0048"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor @Sendable () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "747">
+               </Location>
+               <Location
+                  uuid = "57C0DDE5-5D63-4657-8741-A110D1AF8F98 - 5ca9cde3509877a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor @Sendable () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "747">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95DBC0C4-6959-4CE9-A1DC-CD5550403A9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetechContributors(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95DBC0C4-6959-4CE9-A1DC-CD5550403A9D - 7675b19372b07eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor @Sendable () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "165">
+               </Location>
+               <Location
+                  uuid = "95DBC0C4-6959-4CE9-A1DC-CD5550403A9D - 7675b19372b07eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor @Sendable () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E1FEADE-9FFE-4F57-B9FB-323FD03825EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/Networking/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "searchContributors(url:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E1FEADE-9FFE-4F57-B9FB-323FD03825EB - d4a07fb1c84a2d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in Github_Shubham_Lodhi.WebService.searchContributors(url: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/Networking/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1497">
+               </Location>
+               <Location
+                  uuid = "6E1FEADE-9FFE-4F57-B9FB-323FD03825EB - d4a07fb1c84a2d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in Github_Shubham_Lodhi.WebService.searchContributors(url: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/Networking/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1489">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCA87BE7-BF90-4F45-9087-3D94017B8D8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/Networking/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "searchContributors(url:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DCA87BE7-BF90-4F45-9087-3D94017B8D8B - 55f29f780f856531"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in Github_Shubham_Lodhi.WebService.searchContributors(url: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/Networking/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "2062">
+               </Location>
+               <Location
+                  uuid = "DCA87BE7-BF90-4F45-9087-3D94017B8D8B - 55f29f780f856516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in Github_Shubham_Lodhi.WebService.searchContributors(url: Swift.String, completion: (Swift.Result&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/Networking/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1595">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

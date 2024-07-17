@@ -17,7 +17,6 @@ class HomeViewModel: ObservableObject {
     private var canLoadMorePages = true
     
     private let gitHubAPI = WebService()
-    private var cancellables = Set<AnyCancellable>()
     
     func searchRepositories(query: String) {
         guard !isLoading, canLoadMorePages else { return }
