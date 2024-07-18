@@ -14,8 +14,8 @@
             filePath = "Github_Shubham_Lodhi/Networking/WebService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "searchRepositories(param:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -56,14 +56,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "52FF3013-F4F6-47F3-893E-F5BC77694BC1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "fetechContributors(url:)"
             landmarkType = "7">
             <Locations>
@@ -112,23 +112,37 @@
                   endingLineNumber = "28"
                   offsetFromSymbolStart = "251">
                </Location>
+               <Location
+                  uuid = "52FF3013-F4F6-47F3-893E-F5BC77694BC1 - 7695ca6ad681cff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  uuid = "52FF3013-F4F6-47F3-893E-F5BC77694BC1 - 7695ca6ad681bd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Github_Shubham_Lodhi.Contributor&gt;, Swift.Error&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in Github_Shubham_Lodhi.RepoDetailViewModel.fetechContributors(url: Swift.String) -&gt; ()"
+                  moduleName = "Github_Shubham_Lodhi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Shubham_Ios/Machine_Test/TeachMint/Github_Shubham_Lodhi/Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "181">
+               </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8FB660DE-D799-4B83-ABB8-D1F78BF94AC9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "fetechContributors(url:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -141,8 +155,8 @@
             filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "RepoDetailViewModel"
             landmarkType = "3">
             <Locations>
@@ -189,8 +203,8 @@
             filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "fetechContributors(url:)"
             landmarkType = "7">
             <Locations>
@@ -237,8 +251,8 @@
             filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "fetechContributors(url:)"
             landmarkType = "7">
             <Locations>
@@ -300,8 +314,8 @@
             filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "fetechContributors(url:)"
             landmarkType = "7">
             <Locations>
@@ -348,8 +362,8 @@
             filePath = "Github_Shubham_Lodhi/Networking/WebService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "searchContributors(url:completion:)"
             landmarkType = "7">
             <Locations>
@@ -396,8 +410,8 @@
             filePath = "Github_Shubham_Lodhi/Networking/WebService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "searchContributors(url:completion:)"
             landmarkType = "7">
             <Locations>
@@ -432,6 +446,86 @@
                   offsetFromSymbolStart = "1595">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59F5410D-5B25-4939-8F53-48602988E165"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/Model/HomeModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "CodingKeys"
+            landmarkType = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "388AF595-2AEA-4123-A931-2051228B92E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/View/Home/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05AAB611-A5C6-4EA0-88F1-8947D34C6D9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/View/Home/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E93A7DA1-7572-43D5-827B-B7E76AB57634"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "searchRepositories(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "710509F9-CCEC-4044-A539-78A8977CC486"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Github_Shubham_Lodhi/ViewModel/RepoDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetechContributors(url:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

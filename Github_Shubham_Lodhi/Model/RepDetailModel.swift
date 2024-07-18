@@ -8,6 +8,7 @@
 import Foundation
 
 // MARK: - Contributor
+// MARK:-
 struct Contributor: Codable, Identifiable, Equatable {
     let login: String?
     let id: Int?
@@ -44,7 +45,6 @@ struct Contributor: Codable, Identifiable, Equatable {
         case contributions
     }
 
-    // Custom initializer to handle decoding errors in type field
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.login = try container.decodeIfPresent(String.self, forKey: .login)
@@ -66,7 +66,6 @@ struct Contributor: Codable, Identifiable, Equatable {
         self.siteAdmin = try container.decodeIfPresent(Bool.self, forKey: .siteAdmin)
         self.contributions = try container.decodeIfPresent(Int.self, forKey: .contributions)
         
-        // Decode type as String first to handle unexpected enum values gracefully
         if let typeString = try container.decodeIfPresent(String.self, forKey: .type) {
             self.type = UserType(rawValue: typeString)
         } else {
@@ -79,11 +78,10 @@ struct Contributor: Codable, Identifiable, Equatable {
     }
 }
 
-// Enum to represent contributor type with fallback for unknown cases
 enum UserType: String, Codable {
     case user = "User"
     case organization = "Organization"
-    case unknown // Placeholder for any other unknown cases
+    case unknown
     
     init(rawValue: String) {
         switch rawValue {

@@ -18,11 +18,26 @@ struct HomeView: View {
                     viewModel.resetSearch()
                     viewModel.searchRepositories(query: searchText)
                 })
+                
+                if viewModel.errorMessage == nil {
+                    if viewModel.repositories.isEmpty && !viewModel.isLoading{
+                        Spacer(minLength: 100)
+                        Text("No data found")
+                            .font(.title3)
+                            .fontWeight(.regular)
+                            .multilineTextAlignment(.center)
+                            .background(.clear)
+                            .foregroundStyle(.gray.opacity(0.7))
+                    }
+                }
+                
                 if viewModel.isLoading && viewModel.repositories.isEmpty {
                     ProgressView("Loading...")
                 } else if let errorMessage = viewModel.errorMessage {
+                    Spacer(minLength: 100)
                     Text(errorMessage)
                         .foregroundColor(.red)
+                        .safeAreaPadding()
                 } else {
                     List {
                         ForEach(viewModel.repositories) { repository in
@@ -33,9 +48,24 @@ struct HomeView: View {
                                             viewModel.searchRepositories(query: searchText)
                                         }
                                     }
+                                
                             }
                         }
-                        
+                        .listStyle(.plain)
+                        .listRowSeparator(.hidden)
+                        .listRowBackground(
+                            RoundedRectangle(cornerRadius: 5)
+                                .background(.white)
+                                .foregroundColor(.clear)
+                                .padding(
+                                    EdgeInsets(
+                                        top: 2,
+                                        leading: 0,
+                                        bottom: 2,
+                                        trailing: 0
+                                    )
+                                )
+                        )
                         if viewModel.isLoading && !viewModel.repositories.isEmpty {
                             HStack {
                                 Spacer()
@@ -50,8 +80,12 @@ struct HomeView: View {
             }
             .navigationTitle("Repositories")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
         .onAppear {
-            viewModel.searchRepositories(query: "swift") // Default search query
+            if !NetworkReachabilityManager.shared.isConnectedToNetwork || viewModel.repositories.isEmpty {
+                viewModel.loadRepositoriesFromCoreData()
+                return
+            }
         }
     }
 }

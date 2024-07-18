@@ -13,26 +13,31 @@ struct RepoDetailView: View {
     @StateObject private var vm = RepoDetailViewModel()
     
     var body: some View {
-        
+
         ScrollView(.vertical) {
             VStack(alignment: .center,spacing: 5, content: {
-                if let img = repository?.owner?.avatarURL {
-                    AsyncImage(url: URL(string: img))
-                        .frame(width: 250, height: 250)
-                        .scaledToFit()
-                        .background(.white.opacity(0.3))
-                        .clipShape(Circle())
-                        .overlay(Circle().stroke(Color.gray, lineWidth: 2))
+                    if let img = vm.contributors.first?.avatarURL {
+                        AsyncImage(url: URL(string: img)) { image in
+                            image.resizable()
+                                .frame(width: 250, height: 250)
+                                .clipShape(Circle())
+                                .overlay(Circle().stroke(Color.gray, lineWidth: 2))
+                                .clipped()
+                        } placeholder: {
+                            ProgressView()
+                                .frame(width: 250, height: 250)
+                                .background(.white.opacity(0.3))
+                        }
                 }else{
                     ZStack(content: {
                         Rectangle()
-                        
                             .frame(width: 250, height: 250)
                             .foregroundStyle(.gray.opacity(0.3))
                             .clipShape(Circle())
                             .overlay(Circle().stroke(Color.gray, lineWidth: 2))
-                        Text("Oops! No Image found ...")
+                        ProgressView()
                     })
+                    
                 }
                 Text(repository?.fullName ?? "")
                     .font(.title)
@@ -66,6 +71,26 @@ struct RepoDetailView: View {
                 }
                 
                 Spacer()
+                if !vm.isNetwork {
+                    Spacer(minLength: 10)
+                    Text("Oops! no Inernet found")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .multilineTextAlignment(.center)
+                        .background(.clear)
+                        .foregroundStyle(.gray.opacity(0.7))
+                }
+                
+                if vm.errorMessage != nil {
+                    Spacer(minLength: 10)
+                    Text(vm.errorMessage ?? "something went wrong")
+                        .font(.title3)
+                        .fontWeight(.regular)
+                        .multilineTextAlignment(.center)
+                        .background(.clear)
+                        .foregroundStyle(.red)
+                        .safeAreaPadding()
+                }
             }).onAppear(perform: {
                 if let url = repository?.contributorsURL {
                     vm.fetechContributors(url: url)
@@ -74,7 +99,6 @@ struct RepoDetailView: View {
             .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
             .navigationTitle(repository?.name ?? "Repository Detail")
         }
-        
     }
 }
 
@@ -89,10 +113,19 @@ struct ContributorRow: View {
     var body: some View {
         HStack {
             if let avatarURL = contributor.avatarURL, let url = URL(string: avatarURL) {
-                AsyncImage(url: url)
-                    .frame(width: 40, height: 40)
-                    .clipShape(Circle())
-                    .overlay(Circle().stroke(Color.gray, lineWidth: 1))
+                                    
+                AsyncImage(url: url) { image in
+                    image.resizable()
+                        .frame(width: 40, height: 40)
+                        .clipped()
+                        .overlay(Circle().stroke(Color.gray, lineWidth: 1))
+                        .clipShape(Circle())
+                } placeholder: {
+                    ProgressView()
+                        .frame(width: 40, height: 40)
+                        .background(.white.opacity(0.3))
+                }
+
             }
             Text(contributor.login ?? "Unknown")
                 .font(.headline)

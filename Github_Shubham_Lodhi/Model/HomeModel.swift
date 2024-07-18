@@ -7,8 +7,9 @@
 
 import Foundation
 
-// MARK: - Welcome
-struct Welcome: Codable {
+// MARK: - RepositoryData
+// MARK:-
+struct RepositoryData: Codable {
     let totalCount: Int?
     let incompleteResults: Bool?
     let items: [Repository]?

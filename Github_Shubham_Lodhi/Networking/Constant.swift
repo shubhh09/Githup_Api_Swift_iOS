@@ -7,6 +7,8 @@
 
 import Foundation
 
+//MARK: - Global Constant
+//MARK:-
 struct Constant{
     static let BaseUrl = "https://api.github.com"
     static let search_Repository = "/search/repositories"

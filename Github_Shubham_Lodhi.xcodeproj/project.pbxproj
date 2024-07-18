@@ -18,6 +18,9 @@
 		187D0ADA2C46DBF300EECBE3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 187D0AD92C46DBF300EECBE3 /* Alamofire */; };
 		187D0ADC2C46DBF300EECBE3 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 187D0ADB2C46DBF300EECBE3 /* AlamofireDynamic */; };
 		187D0ADE2C46DD4100EECBE3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D0ADD2C46DD4100EECBE3 /* Constant.swift */; };
+		18BBA9DB2C48D19000F29F5B /* RepositoryCoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA9D92C48D19000F29F5B /* RepositoryCoreModel.xcdatamodeld */; };
+		18BBA9DD2C48D26800F29F5B /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA9DC2C48D26800F29F5B /* CoreData.swift */; };
+		18BBA9DF2C48E41300F29F5B /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA9DE2C48E41300F29F5B /* NetworkReachability.swift */; };
 		18D13BFD2C4782560099DC73 /* RepoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D13BFC2C4782560099DC73 /* RepoDetailView.swift */; };
 		18D13BFF2C479C070099DC73 /* RepDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D13BFE2C479C070099DC73 /* RepDetailModel.swift */; };
 		18D13C012C479C150099DC73 /* RepoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D13C002C479C150099DC73 /* RepoDetailViewModel.swift */; };
@@ -34,6 +37,9 @@
 		187D0AD22C46DB6000EECBE3 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		187D0AD52C46DB6000EECBE3 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		187D0ADD2C46DD4100EECBE3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		18BBA9DA2C48D19000F29F5B /* RepositoryCoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RepositoryCoreModel.xcdatamodel; sourceTree = "<group>"; };
+		18BBA9DC2C48D26800F29F5B /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		18BBA9DE2C48E41300F29F5B /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 		18D13BFC2C4782560099DC73 /* RepoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailView.swift; sourceTree = "<group>"; };
 		18D13BFE2C479C070099DC73 /* RepDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepDetailModel.swift; sourceTree = "<group>"; };
 		18D13C002C479C150099DC73 /* RepoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailViewModel.swift; sourceTree = "<group>"; };
@@ -73,10 +79,12 @@
 			children = (
 				187D0ABB2C46DACA00EECBE3 /* Github_Shubham_LodhiApp.swift */,
 				187D0ABD2C46DACA00EECBE3 /* ContentView.swift */,
+				18BBA9D92C48D19000F29F5B /* RepositoryCoreModel.xcdatamodeld */,
 				187D0AD32C46DB6000EECBE3 /* View */,
 				187D0AD12C46DB6000EECBE3 /* ViewModel */,
 				187D0ACD2C46DB4C00EECBE3 /* Model */,
 				187D0ACB2C46DB4C00EECBE3 /* Networking */,
+				18BBA9E02C492C9100F29F5B /* CoreData */,
 				187D0AC92C46DB3D00EECBE3 /* Assets.xcassets */,
 				187D0AC12C46DACC00EECBE3 /* Preview Content */,
 			);
@@ -96,6 +104,7 @@
 			children = (
 				187D0ACC2C46DB4C00EECBE3 /* WebService.swift */,
 				187D0ADD2C46DD4100EECBE3 /* Constant.swift */,
+				18BBA9DE2C48E41300F29F5B /* NetworkReachability.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -133,6 +142,14 @@
 				18D13BFC2C4782560099DC73 /* RepoDetailView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		18BBA9E02C492C9100F29F5B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA9DC2C48D26800F29F5B /* CoreData.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BBA9DF2C48E41300F29F5B /* NetworkReachability.swift in Sources */,
 				187D0ADE2C46DD4100EECBE3 /* Constant.swift in Sources */,
 				18D13BFF2C479C070099DC73 /* RepDetailModel.swift in Sources */,
+				18BBA9DB2C48D19000F29F5B /* RepositoryCoreModel.xcdatamodeld in Sources */,
 				187D0AD02C46DB4C00EECBE3 /* HomeModel.swift in Sources */,
+				18BBA9DD2C48D26800F29F5B /* CoreData.swift in Sources */,
 				187D0ACF2C46DB4C00EECBE3 /* WebService.swift in Sources */,
 				18D13BFD2C4782560099DC73 /* RepoDetailView.swift in Sources */,
 				187D0ABE2C46DACA00EECBE3 /* ContentView.swift in Sources */,
@@ -451,6 +471,19 @@
 			productName = AlamofireDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		18BBA9D92C48D19000F29F5B /* RepositoryCoreModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18BBA9DA2C48D19000F29F5B /* RepositoryCoreModel.xcdatamodel */,
+			);
+			currentVersion = 18BBA9DA2C48D19000F29F5B /* RepositoryCoreModel.xcdatamodel */;
+			path = RepositoryCoreModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 187D0AB02C46DAC900EECBE3 /* Project object */;
 }

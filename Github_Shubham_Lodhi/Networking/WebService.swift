@@ -8,12 +8,16 @@
 import Foundation
 import Alamofire
 
+//    MARK: - Custom Error 
+//    MARK:-
 enum CustomError: Error {
     case error(String)
 }
 
 
 class WebService {
+//    MARK: - for Home View
+//    MARK:-
     func searchRepositories(param: Dictionary<String, Any>, completion: @escaping (Result<[Repository], Error>) -> Void) {
         
         let urlString = Constant.BaseUrl + Constant.search_Repository
@@ -22,25 +26,30 @@ class WebService {
             switch response.result {
             case .success(let data):
                 print("🌀 response code: ",response.response?.statusCode ?? -1)
-                if let rawDataString = String(data: data, encoding: .utf8) {
-                                    print("🌀 Raw Data: \(rawDataString)")
-                                }
-                do {
-                    let decoder = JSONDecoder()
-                    
-                    let welcome = try decoder.decode(Welcome.self, from: data)
-                    print("🌀 totalCount: \(welcome.totalCount ?? 0)")
-                    completion(.success(welcome.items ?? []))
-                } catch {
-                    completion(.failure(error))
+                let status =  response.response?.statusCode ?? -1
+                if status ==  200 {
+                    do {
+                        let decoder = JSONDecoder()
+                        
+                        let final_data = try decoder.decode(RepositoryData.self, from: data)
+                        print("🌀 totalCount: \(final_data.totalCount ?? 0)")
+                        completion(.success(final_data.items ?? []))
+                    } catch {
+                        print("error in success: \(error)")
+                        completion(.failure(error))
+                    }
+                }else{
+                    completion(.failure(CustomError.error("response code \(status) \n unable to process")))
                 }
             case .failure(let error):
+                print("error in failure: \(error)")
                 completion(.failure(error))
             }
         }
     }
     
-    
+//    MARK: - for Repo Detail View
+//    MARK:-
     func searchContributors(url: String, completion: @escaping (Result<Contributors, Error>) -> Void) {
         
         AF.request(url).responseData { response in
@@ -55,9 +64,9 @@ class WebService {
                 do {
                     let decoder = JSONDecoder()
                     
-                    let welcome = try decoder.decode(Contributors.self, from: data)
-                    print("🌀 totalCount: \(welcome.count)")
-                    completion(.success(welcome))
+                    let final_data = try decoder.decode(Contributors.self, from: data)
+                    print("🌀 totalCount: \(final_data.count)")
+                    completion(.success(final_data))
                 } catch {
                     completion(.failure(error))
                 }
